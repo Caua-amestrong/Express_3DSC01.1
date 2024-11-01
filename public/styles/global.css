@@ -11,9 +11,10 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 24px;
 }
 .logo {
-  width: 20px;
+  width: 100px;
   border-radius: 50%;
 }
 a {
@@ -24,9 +25,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
-.bnt-logar {
+.btn-logar {
   background-color: black;
   color: white;
   padding: 10px;
   border-radius: 24px;
+}
+.pato {
+  text-align: center;
+  font-size: 100%;
 }
