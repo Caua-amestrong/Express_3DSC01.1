@@ -16,6 +16,10 @@ app.get("/404", function (req, res) {
   res.sendFile(__dirname + "/src/views/404.html");
 });
 
+app.get("/contato", function (req, res) {
+  res.sendFile(__dirname + "/src/views/contato.html");
+});
+
 app.listen(PORT, () => {
   console.log("running...");
 });
